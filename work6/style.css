@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(182, 174, 174);
+}
+.heading{
+    color: #0866ff;font-family: 'Courier New', Courier, monospace;font-size: 60px;text-align: center;font-weight: bold;margin-top: 90px;
+}
+.box{
+    position:relative;border:50px solid white;background-color: white;border-color: white;width: 500px;height: 550px;margin:100px;margin-left: 650px;margin-top: 0px;
+}
+.para{
+    position:absolute;font-size: 30px;text-align: center;margin-left:120px; margin-top: 20px;
+}
+.form{
+    position:absolute;margin-top: 90px;;margin-left:-13px;
+}
+.pp1{
+    width:543px;height:40px;font-weight: 150px;color: grey;margin-bottom: 10px;
+}
+.pp2{
+    width:550px;height:40px;font-weight:300px;color: rgb(255, 252, 252);background-color: rgb(18, 96, 185);
+}
+.para1{
+    width:550px;height:40px;font-weight:300px;margin-top: 10px;color:#0866ff;text-align: center;text-decoration: none;margin-left: 230px;
+}
+.para3{
+    width:550px;height:40px;font-weight:300px;margin-top: 10px;text-align: center;
+
+}
+.pp3{
+    width:543px;height:40px;font-weight:300px;margin-top: 10px;color:white;background-color: green;
+}
+.pp4{
+    text-align: center;color: black;margin-top: 150px;
+}
+.pp5{
+    text-align: center;
+}
+#b1,#b2{ 
+    width:250px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 265px;
+}
+.d{
+    display: flex;
+}
+#b3{
+    padding-top: 10px;
+    margin-top: 265px;
+}

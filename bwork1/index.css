@@ -1,0 +1,16 @@
+.para1{
+    background-color: rgb(51, 50, 50);
+}
+.para2{
+    font-size:50px;font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.para3{
+background-color: beige;height: 250px;
+}
+.para4{
+    margin-top: 50px;
+}
+.pp1{
+    border-bottom: 1px solid rgb(211, 206, 177);padding-top: 30px;width:150%;
+}
