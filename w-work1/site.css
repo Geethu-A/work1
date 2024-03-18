@@ -1,0 +1,318 @@
+.para {
+    background-color: #CC6733;
+    height: 380px;
+}
+
+.para1 {
+    width: 550px;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+.para .fa-film {
+    height: 64px;
+    /* width:70%; */
+    color: white;
+    text-align: center;
+    font-size: 82px;
+    /* size: 43px; */
+    padding-left: 130px;
+    padding-top: 10%;
+
+
+
+}
+
+.p1 {
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    padding-top: 10%;
+    font-weight: 350;
+}
+
+.p2 {
+    text-align: center;
+    color: #FECB99;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+li {
+    border: 1px solid black;
+    margin-top: 5%;
+    height: 55px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+/* .p4:active{
+    border: ipx solid green;
+}
+.p4:hover{
+    border: ipx solid rgb(122, 8, 145);
+} */
+
+.p5 {
+    border: 1px solid #EEEEEE;
+    margin-top: 5%;
+    background-color: #EEEEEE;
+}
+
+.uuu {
+    margin-bottom: 5%;
+}
+
+.p6 {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.p8 {
+    margin-left: 370px;
+}
+
+.p9 {
+    margin-left: 450px;
+}
+
+.p10 {
+    margin-left: 530px;
+}
+
+.p11 {
+    margin-top: 30px;
+    width: 100%;
+    height: 360px;
+}
+
+.p12 {
+    padding-left: 600px;
+    margin-left: 550px;
+}
+
+.image1 {
+    width: 85%;
+    margin-top: -3%;
+    height: 70%;
+}
+
+.p13 {
+    text-align: center;
+    background-color: palevioletred;
+    width: 85%;
+    height: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 4%;
+}
+
+.p14 {
+    color: rgb(25, 95, 224);
+    font-weight: 300;
+}
+
+.p15 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.but1 {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.card1 {
+    background-color: #ebe7e5;
+    height: 100%;
+}
+
+.para3 {
+    margin-top: 15px;
+}
+
+.p16 {
+    text-align: center;
+    background-color: rgb(6, 121, 102);
+    width: 85%;
+    height: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 4%;
+}
+
+.but2 {
+    background-color: rgb(6, 121, 102);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.p17 {
+    text-align: center;
+    background-color: rgb(124, 49, 5);
+    width: 85%;
+    height: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 4%;
+}
+
+.but3 {
+    background-color: rgb(124, 49, 5);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.p18 {
+    text-align: center;
+    background-color: rgb(94, 93, 93);
+    width: 85%;
+    height: 20%;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 4%;
+}
+
+.but4 {
+    background-color: rgb(94, 93, 93);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.p19 {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+/* li :link {
+    color: rgb(0, 0, 0);
+    border-color: rgb(3, 3, 3);
+}
+
+
+li :active {
+    color: rgb(168, 73, 10);
+    border:1px solid yellow; 
+}
+li :visited {
+    color: rgb(168, 73, 10);
+    border:1px solid green;
+}  */
+li .p19{
+    text-decoration: none;
+    color: black;
+    /* width: 200px; */
+    /* height: 100%; */
+}
+
+
+li:hover{
+    border-color: #CC6733;
+    
+   
+}
+
+li a:hover{
+    color:#CC6733;
+  
+
+}
+.p20{
+    margin-top: 4.7%;padding-left: 5%;
+}
+.p21{
+    margin-top: 17%;color: #CC6733;font-weight:400 ;
+}
+.p22{
+    font-size:22px;font-weight: 200;
+}
+.p23{
+    width:30%;height: 15%;
+}
+.para5 {
+    width: 550px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.para6 {
+    background-color: #CC6733;
+    height: 380px;
+}
+.para6 .fa-audio-description{
+    height: 64px;
+    /* width:70%; */
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    /* size: 43px; */
+    padding-left: 130px;
+    padding-top: 5%;
+}
+.p24 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 10%;
+    font-weight: 300;
+}
+.p25 {
+    color: white;
+    font-size: 23px;
+    padding-top: 10%;
+    font-weight: 250;
+}
+.p26{
+    margin-top: 17%;
+}
+.para6 .fa-bell-o{
+    height: 64px;
+    /* width:70%; */
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    /* size: 43px; */
+    padding-left: 130px;
+    padding-top: 5%;
+}
+.para6 .fa-birthday-cake{
+    height: 64px;
+    /* width:70%; */
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    /* size: 43px; */
+    padding-left: 130px;
+    padding-top: 5%;
+}
+.p27{
+    font-size: 35px;font-weight: 250;color: #CC6733;margin-top: 7%;
+}
+.p28{
+    border: 1px solid rgb(105, 3, 114);
+}
+.p29{
+    font-size: 20px;font-weight: 100;
+}
+.p30{
+    margin-left: 68%;font-size: 19px;font-weight: 100;
+}
