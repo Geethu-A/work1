@@ -316,3 +316,39 @@ li a:hover{
 .p30{
     margin-left: 68%;font-size: 19px;font-weight: 100;
 }
+.p31 {
+    margin-top: 30px;
+    width: 90%;
+    height: 365px;
+}
+.p32{
+    font-weight: 300;color:rgb(29, 88, 216);
+}
+.g-3 .p33{
+    width: 550px;border-color: rgb(189, 189, 189);color:rgb(189, 189, 189)
+}
+.p34{
+    width:150px;height:50px;background-color: #CC6733;color:white;border:none
+}
+.p35{
+    margin-top: 14%;font-size: 20px;font-weight: 200;
+}
+.p36{
+    font-weight: 300;color:rgb(42, 97, 216);font-size: 20px;
+}
+.p37{
+    font-size: 20px;font-weight: 200;
+}
+.p38{
+text-decoration: none;
+}
+.div1 .p37 .p38:hover{
+      text-decoration: underline;
+
+}
+.p39{
+    text-decoration: none;color: black;
+    }
+.div2 .p37 .p39:hover{
+    text-decoration: underline;color: rgb(21, 94, 190);
+}   
