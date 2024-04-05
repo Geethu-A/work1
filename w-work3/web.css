@@ -152,12 +152,12 @@
     font-size: 15px;
 }
 
-.web6 {
+/* .web6 {
     text-decoration: none;
     color: black;
     font-weight: bold;
     letter-spacing: 1px;
-}
+} */
 
 .web7 {
     height: 600px;
@@ -252,3 +252,71 @@
         width: 140px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web6 {
+    text-decoration: none;
+    color: inherit;
+
+  }
+  
+  .web6 {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+  }
+  .web6:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #b60beb;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+   
+  }
+  .web6 span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+ 
+    
+  
+  }
+
+
+  .web6:hover:before {
+    width: 100%;
+    background: #361042;
+ 
+  }
+  .web6:hover{
+    color:white;
+    /* padding: 0px; */
+  }
+
+  .web6:active {
+    transform: scale(0.96);
+  }
