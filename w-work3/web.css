@@ -89,20 +89,22 @@
 
 .p8 {
     color: white;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     font-size: 60px;
     font-weight: 1000;
-
-    position: absolute;
-    top: 10%;
-    margin-left: 580px;
+  padding-top: 290px;
+    /* position: absolute;
+    top: 10%; */
+    /* margin-left: 580px; */
+    text-align: center;
     letter-spacing: 10px;
     font-family: Fraunces, serif;
+
 }
 
-.p6 .para {
-    margin-left: 49%;
-    margin-top: 385px;
+.para {
+    padding-left: 49%;
+    /* margin-top: 385px; */
     font-size: 40px;
     height: 110px;
 }
@@ -173,6 +175,12 @@
 
     background-position: bottom;
 }
+.web27{
+    color: #2B7463;font-size:20px;
+}
+.web27:hover{
+    color: #2B7463;
+}
 .web10{
     text-decoration: none;margin-top: 200px;color: #2B7463;font-weight: 700;
 }
@@ -182,8 +190,11 @@
 .web11{
     margin-top: 15%;text-align: center;
 }
+.web25{
+   text-align: center;
+}
 
-@media(min-width:400px) and (max-width:800px) {
+@media(min-width:100px) and (max-width:800px) {
     .navbar-nav .p2 {
         font-weight: 400;
         font-size: 15px;
@@ -319,4 +330,12 @@
 
   .web6:active {
     transform: scale(0.96);
+  }
+
+
+  @media(max-width:1891px) {
+    .p1{
+        margin-left: 40px;
+    }
+    
   }
