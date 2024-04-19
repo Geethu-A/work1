@@ -1,0 +1,25 @@
+.hamburger-menu {
+    width: 48px;
+    height: 48px;
+    background: var(--LavenderColor);
+    border-radius: 50%;
+    padding: 0px;
+    margin: 21px 0px 0px 0px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0 0px rgba(143, 92, 165, 0.2);
+    transition-duration: 0.3s;
+}
+.hamburger-menu span {
+    width: 24px;
+    height: 3px;
+    position: absolute;
+    background: #fff;
+    display: block;
+    margin: 0px 0px;
+    right: 12px;
+    top: 13px;
+    animation: 3s linear infinite barstyleone;
+}
