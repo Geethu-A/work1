@@ -9,6 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="sample.css" rel="stylesheet">
     <link href="bb.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -52,7 +53,7 @@
 
 
                     </li>
-                 
+
                 </ul>
             </div>
         </div>
@@ -108,13 +109,13 @@
     <div class="row mm1">
         <div class="col-lg-12 col-sm-12">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+                <!-- <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
 
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                </div>
+                </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
                         <img src="woman1.jpg" class="d-block p17" alt="...">
@@ -123,7 +124,7 @@
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item" data-bs-interval="20000000">
                         <img src="woman.jpg" class="d-block p17" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
@@ -143,12 +144,37 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div class="mm2">
+                <ul class="list-group list-group-horizontal">
+                    <a href="www.instagram.com">
+                        <li class="list-group-item mm6"><i class="fa fa-instagram"></i></li>
+                    </a>
 
+                </ul>
+                <ul class="list-group list-group-horizontal-sm">
+                    <a href="www.facebook.com">
+                        <li class="list-group-item mm7"><i class="fa fa-facebook-f"></i></li>
+                    </a>
 
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <a href="www.instagram.com">
+                        <li class="list-group-item mm8"><i class="fa fa-linkedin"></i></li>
+                    </a>
 
+                </ul>
+                <ul class="list-group list-group-horizontal">
+                    <a href="www.instagram.com">
+                        <li class="list-group-item mm9"><i class="fa fa-twitter"></i></i></li>
+                    </a>
 
+                </ul>
 
-
+            </div>
+            <div style="position: absolute;top: 98%;left: 48%;">
+                <img src="bg.png">
+                <a href="#" class="scrollbar-btn"></a>
+            </div>
 
 
 
@@ -166,13 +192,12 @@
 
 
 
-
     <script>
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 document.getElementById("navbar").style.padding = "45px 10px";
                 document.getElementById("logo").style.fontSize = "25px";
                 document.querySelector(".p1").style.width = "300px";

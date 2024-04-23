@@ -59,3 +59,61 @@
         box-shadow: 0 0 0 12px rgb(170, 147, 192);;
         background-color: rgb(47, 6, 85);
     }
+
+
+    .scrollbar-btn {
+        width: 156px;
+        height: 78px;
+        background: url('bg.png') no-repeat;
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        z-index: 900;
+        margin-left: -78px;
+        border: none;
+        outline: none;
+    }
+    a {
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+    .scrollbar-btn:before {
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        left: 50%;
+        content: '';
+        margin-left: -9px;
+        bottom: 0px;
+        z-index: 990;
+        border: none;
+        outline: none;
+        animation: mouse-animation 1.5s infinite alternate;
+        background: none;
+        background: url("mouse-icon.png") no-repeat;
+        transition-duration: 0s;
+    }
+    .scrollbar-btn:hover:before {
+        background-position-y: -24px;
+    }
+    @keyframes mouse-animation {
+        0% {
+            bottom: 15px;
+        }
+    
+    
+    
+        70% {
+            bottom: 15px;
+        }
+    
+        71% {
+            bottom: 15px;
+        }
+    
+    
+    
+        100% {
+            bottom: 30px;
+        }
+    }
