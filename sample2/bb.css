@@ -1,0 +1,119 @@
+.hamburger-menu {
+    width: 48px;
+    height: 48px;
+    background: var(--LavenderColor);
+    border-radius: 50%;
+    padding: 0px;
+    margin: 21px 0px 0px 0px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0 0px rgba(143, 92, 165, 0.2);
+    transition-duration: 0.3s;
+    background-color:rgb(177, 27, 152);
+    border-radius: 50%;
+}
+.hamburger-menu span {
+    width: 24px;
+    height: 3px;
+    position: absolute;
+    background: #ffffff;
+    display: block;
+    margin: 0px 0px;
+    right: 12px;
+    top: 13px;
+    animation: 3s linear infinite barstyleone;
+}
+@keyframes barstyleone {
+    0%{
+        width: 24px;
+    }
+    50% {
+        width: 10px;
+    }
+    100% {
+        width: 24px;
+    }
+}
+.hamburger-menu span:nth-child(2){
+    top: 22px;
+    animation: 3s linear infinite barstyletwo;
+}
+@keyframes barstyletwo {
+        0%{
+            width: 10px;
+        }
+        50% {
+            width: 24px;
+        }
+        100% {
+            width: 10px;
+        }
+    }
+    .hamburger-menu span:nth-child(3){
+        top: 31px;
+    }
+    .hamburger-menu:hover{
+        background: var(--PinkColor);
+        box-shadow: 0 0 0 12px rgb(170, 147, 192);;
+        background-color: rgb(47, 6, 85);
+    }
+
+
+    .scrollbar-btn {
+        width: 156px;
+        height: 78px;
+        background: url('bg.png') no-repeat;
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        z-index: 900;
+        margin-left: -78px;
+        border: none;
+        outline: none;
+    }
+    a {
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+    .scrollbar-btn:before {
+        width: 18px;
+        height: 24px;
+        position: absolute;
+        left: 50%;
+        content: '';
+        margin-left: -9px;
+        bottom: 0px;
+        z-index: 990;
+        border: none;
+        outline: none;
+        animation: mouse-animation 1.5s infinite alternate;
+        background: none;
+        background: url("mouse-icon.png") no-repeat;
+        transition-duration: 0s;
+    }
+    .scrollbar-btn:hover:before {
+        background-position-y: -24px;
+    }
+    @keyframes mouse-animation {
+        0% {
+            bottom: 15px;
+        }
+    
+    
+    
+        70% {
+            bottom: 15px;
+        }
+    
+        71% {
+            bottom: 15px;
+        }
+    
+    
+    
+        100% {
+            bottom: 30px;
+        }
+    }
