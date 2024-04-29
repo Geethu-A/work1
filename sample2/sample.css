@@ -145,7 +145,7 @@
 
 }
 .mm2{
-    position:absolute;top:69%;
+    position:absolute;top:681px;
 }
 .list-group-item{
     height: 80px;width: 80px;
@@ -176,7 +176,7 @@ li .fa-twitter{
 }
 
 .mm10{
-    position: absolute;top: 94%;left: 48%;
+    position: absolute;top: 923px;left: 48%;
 }
 .mass1{
     color:white;
@@ -189,4 +189,27 @@ li .fa-twitter{
 .mass3{
     color: white;
     font-size:25px;
+}
+.part1{
+    background: url('topbg.png') no-repeat left top;
+
+    width: 100%;
+    height: 700px;
+    background-position: relative;
+    
+}
+.part2{
+text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
+}
+.part3{
+    color: rgb(177, 27, 152);font-weight: 600;
+}
+.part4{
+    text-align: center;font-weight: 400;font-size: 55px;
+}
+.part5{
+    border-right: 1px solid #9e9e9e;height: 90px;
+}
+.part6{
+    font-family:'Times New Roman', Times, serif;letter-spacing: 1px;color:#706473;font-size: 15px;font-weight: 300;
 }
