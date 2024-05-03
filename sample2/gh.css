@@ -1,0 +1,27 @@
+.hpmenu{
+    width: 48px;
+    height: 48px;
+    background: var(--LavenderColor);
+    border-radius: 50%;
+    padding: 0px;
+    margin: 21px 0px 0px 0px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 0 0 0px rgba(143, 92, 165, 0.2);
+    transition-duration: 0.3s;
+    background-color:rgb(177, 27, 152);
+    border-radius: 50%;
+    z-index: 2;
+    top: 90%;
+    right: 5%;
+    
+}
+.hpmenu:hover{
+    background: var(--PinkColor);
+    box-shadow: 0 0 0 12px rgb(172, 238, 191);;
+    background-color: rgb(47, 6, 85);
+}
+
+   
