@@ -1,3 +1,8 @@
+/* 
+*{
+    width: 100%;
+} */
+
 .p1 {
     height: 240px;
     width: 400px;
@@ -220,22 +225,97 @@ text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
     border: 1px solid rgb(111, 90, 152);border-top-left-radius: 50%;border-top-right-radius: 50%;height: 300px;position: relative;
 }
 .wee2{
-    margin-left: 200px;
+    margin-left: 240px;margin-top: 20%;
 }
 .wee3{
-    position:absolute;bottom: 20%;left: 30%;
+    position:absolute;bottom: 20%;left: 25%;
 }
 .wee4{
     background-image: url('footer-bg.jpg');
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 .wee5{
     position: absolute;top: 0%;margin-left: 800px;
 }
 .wee7{
-    background-color:rgb(128, 10, 238) ;color: white;border: none;margin-top: 50%;width:150px;height: 40px;
+    background-color:rgb(198, 152, 241) ;color: white;border: none;margin-top: 50%;width:150px;height: 40px;
 }
+.wee8{
+    background-color: #c9a4f3;border-radius: 50%;
+}
+.wee9{
+    text-align: center;
+}
+.wee10{
+    text-align: left;
+}
+.wee11{
+    background-color:rgb(129, 0, 250) ;color: white;border: none;width:150px;height: 40px;
+}
+.row>* {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.wee12{
+    width:100%;
+}
+.wee13{
+    background-image: url('book-bg.jpg');
+    /* width: 100%; */
+    height: 500px;
+    /* background-attachment: fixed; */
+}
+.wee14{
+    text-align: center;color: white;
+}
+.wee15{
+    text-align: center;color: white;
+}
+.wee16{
+    background-color:rgb(255, 255, 255) ;color: rgb(91, 16, 121);border: none;width:250px;height: 40px;
+}
+.wee17{
+    text-align: center;font-weight: 400;
+}
+.wee18{color: black;}
+.wee18:hover{
+    color: #6811ca;
+}
+.wee19{
+    height: 450px;width:400px;
+}
+.wee20{
+    height: 700px;position: relative;top:80%;
+}
+.wee21{
+    text-align: center;font-weight: 400;
+}
+.wee22{
+    height: 800px;
+}
+.wee23{
+    background-color: #d7c7eb;
+}
+.wee24{
+    text-align: center;
+}
+.wee25{
+    text-align: justify;
+}
+.wee26{
+    margin-left: 50%;background-color: #8523f5;border: none;
+}
+.wee27{
+    margin-left:800px;
+}
+.wee28{
+    background-color: #d39de0;
+}
+.wee29{
+    height: 260px;
+}
+
 /* @media(max-width:1500px) {
     .p5{
         display: none;
