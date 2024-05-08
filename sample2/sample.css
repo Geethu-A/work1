@@ -120,17 +120,7 @@
     z-index: 99;
   }
   
-  /* #navbar a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-  } */
-  
+
   #navbar #logo {
     font-size: 35px;
     font-weight: bold;
@@ -142,11 +132,8 @@
 .po1{
     padding:3%;
 }
-/* .marg{
-    width: 100%;
-    height: 1000px;
-} */
-.mm1{
+
+.row{
     --bs-gutter-x:0px;
 
 }
@@ -225,7 +212,7 @@ text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
     border: 1px solid rgb(111, 90, 152);border-top-left-radius: 50%;border-top-right-radius: 50%;height: 300px;position: relative;
 }
 .wee2{
-    margin-left: 240px;margin-top: 20%;
+    margin-left: 245px;margin-top: 20%;
 }
 .wee3{
     position:absolute;bottom: 20%;left: 25%;
@@ -239,7 +226,7 @@ text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
     position: absolute;top: 0%;margin-left: 800px;
 }
 .wee7{
-    background-color:rgb(198, 152, 241) ;color: white;border: none;margin-top: 50%;width:150px;height: 40px;
+    background-color:rgb(129, 8, 241) ;color: white;border: none;margin-top: 50%;width:150px;height: 40px;
 }
 .wee8{
     background-color: #c9a4f3;border-radius: 50%;
@@ -307,7 +294,7 @@ text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
     margin-left: 50%;background-color: #8523f5;border: none;
 }
 .wee27{
-    margin-left:800px;
+    margin-left:700px;
 }
 .wee28{
     background-color: #d39de0;
@@ -315,7 +302,64 @@ text-align: center;padding-top:10%;font-weight: 400;font-size: 55px;
 .wee29{
     height: 260px;
 }
+.wee30{
+    background-color: #6811ca;width: 100%;height: 150px;
+}
+.wee30 .fa-map-marker{
+    margin-left: 120px;font-size:40px;color: white;
+}
+.wee31{
+    color: white;
+}
+.wee30 .fa-envelope-o{
+    margin-left: 120px;font-size:30px;color: white;
 
+}
+.wee30 .fa-phone{
+    margin-left: 120px;font-size:30px;color: white;
+}
+.wee32{
+    background-color: #f7e6f1;width: 100%;height: 720px;
+}
+.wee33{
+    margin-left: 43%;margin-top: 5%;
+}
+.wee32 .fa-facebook-f{
+    background-color:rgb(10, 61, 170);border-radius:50%;color:white;width: 40px;height:40px;font-size: 24px;padding-left: 9px;padding-top: 5px;
+}
+.wee32 .fa-linkedin{
+    background-color:rgb(7, 69, 88);border-radius:50%;color:white;width: 40px;height:40px;font-size: 24px;padding-left: 8px;padding-top: 5px;
+}
+.wee32 .fa-twitter{
+    background-color:rgb(14, 162, 231);border-radius:50%;color:white;width: 40px;height:40px;font-size: 24px;padding-left: 8px;padding-top: 6px;
+}
+.wee32 .fa-instagram{
+    background-color:rgb(253, 91, 50);border-radius:50%;color:white;width: 40px;height:40px;font-size: 24px;padding-left: 9px;padding-top: 6px;
+}
+.wee32 .fa-youtube-play{
+    background-color:rgb(255, 0, 0);border-radius:50%;color:white;width: 40px;height:40px;font-size: 24px;padding-left: 8px;padding-top: 6px;
+}
+.wee34{
+    margin-left:600px;
+}
+.wee35{
+    margin-left: 41%;
+}
+.wee36{
+    background-color: #ffffff;width: 100%;height: 50px;
+}
+.wee37{
+    background-color: #d39de0;width:400px;
+}
+.ssr1{
+    width: 100%;position: relative;
+}
+.card-title{
+    text-align: center;margin-top:10%;font-size: 50px;
+}
+.card-img{
+    height: 400px;
+}
 /* @media(max-width:1500px) {
     .p5{
         display: none;
