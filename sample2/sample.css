@@ -640,6 +640,30 @@ li .fa-twitter {
     padding-left: 300px;
 }
 
+
+.panel, .flip {
+    padding: 5px;
+    text-align: left;
+    background-color: #a992d3;
+    border: solid 1px #c3c3c3;
+  }
+  
+  .panel {
+    padding: 50px;
+    display: none;
+  }
+  .panel1, .flip {
+    padding: 5px;
+    text-align: left;
+    background-color: #a992d3;
+    border: solid 1px #c3c3c3;
+  }
+  
+  .panel1 {
+    padding: 50px;
+    /* display: none; */
+  }
+
 /* @media(max-width:1650px) {
     .p5{
         display: none;
