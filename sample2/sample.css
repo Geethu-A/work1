@@ -7,7 +7,7 @@
 }
 
 .p2 {
-    margin-left: 80%;
+    margin-left: 100px;
 }
 
 .p5 {
@@ -277,7 +277,7 @@ li .fa-twitter {
 
 .wee3 {
     position: absolute;
-    bottom: 20%;
+    bottom: 0%;
     left: 25%;
 }
 
@@ -290,7 +290,7 @@ li .fa-twitter {
 .wee5 {
     position: absolute;
     top: 0%;
-    margin-left: 800px;
+    margin-left: 38%;
 }
 
 .wee7 {
@@ -301,7 +301,9 @@ li .fa-twitter {
     width: 150px;
     height: 40px;
 }
-
+.sh1{
+    margin-left: 10%;
+}
 .wee8 {
     background-color: #c9a4f3;
     border-radius: 50%;
@@ -374,8 +376,8 @@ li .fa-twitter {
 }
 
 .wee19 {
-    height: 450px;
-    width: 400px;
+    height: 225px;
+    width: 300px;
 }
 
 .wee20 {
@@ -412,7 +414,7 @@ li .fa-twitter {
 }
 
 .wee27 {
-    margin-left: 700px;
+    margin-left: 40%;
 }
 
 .wee28 {
@@ -430,7 +432,7 @@ li .fa-twitter {
 }
 
 .wee30 .fa-map-marker {
-    margin-left: 120px;
+    margin-left: 80%;
     font-size: 40px;
     color: white;
 }
@@ -440,13 +442,13 @@ li .fa-twitter {
 }
 
 .wee30 .fa-envelope-o {
-    margin-left: 120px;
+    margin-left: 75%;
     font-size: 30px;
     color: white;
 }
 
 .wee30 .fa-phone {
-    margin-left: 120px;
+    margin-left: 80%;
     font-size: 30px;
     color: white;
 }
@@ -533,7 +535,8 @@ li .fa-twitter {
 
 .wee37 {
     background-color: #d39de0;
-    width: 400px;
+    width: 300px;
+    height: 100px;
 }
 
 .ssr1 {
@@ -578,14 +581,26 @@ li .fa-twitter {
 .kki .row {
     display: none;
 }
-
+.blog34{
+    display: none;
+}
 .blog34 .fa-link {
     color: white;
     /* margin-top: 50%;
     margin-left: 50%; */
     font-size: 50px;
 }
+.hovercard:hover .blog34{
+    display: flex;
+    width: 300px;
+    height: 325px;
+    background-color: #8523f5;
+    position: absolute;
+    margin-top: 0px;
+    opacity: 0.5;
 
+}
+/* 
 .blog34:hover{
     width: 400px;
     height: 450px;
@@ -593,8 +608,8 @@ li .fa-twitter {
     position: absolute;
     margin-top: 0px;
     opacity: 0.5;
-    /* overflow: hidden; */
-}
+} */
+
 
 /* .blog34:hover{
     overflow: visible;
