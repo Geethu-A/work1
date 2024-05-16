@@ -619,12 +619,39 @@ li .fa-twitter {
     width: 100%;
     height: 800px;
 }
-
+.treat40 {
+    background-color: #dbc7f1;
+    width: 100%;
+    height: 153px;
+}
+.bbb12{
+    color:black
+}
+.bbb12:hover{
+    color: #6811ca;
+}
 .treat5 {
     text-align: center;
     font-weight: 400;
 }
-
+.app1{
+    width: 90%;
+}
+.pix1{
+    width: 93%;
+}
+.app2{
+    width:86% ;
+}
+.pix3{
+    width: 100%;height: 70%;
+}
+.app3{
+    color:rgb(124, 123, 123);
+}
+.pix2{
+    margin-top: 15%;
+}
 .treat6 {
     text-align: center;
     background-color: #390475;
@@ -638,6 +665,7 @@ li .fa-twitter {
     width: 100%;
     text-align: center;
 }
+
 
 .treat8 {
     background-color: #e5d8f3;
@@ -678,7 +706,27 @@ li .fa-twitter {
     padding: 50px;
     /* display: none; */
   }
-
+  .con1{
+    background-color: rgb(247, 168, 247);height: 300px;width: 750px;border-bottom:2px solid rgb(240, 30, 240) ;
+  }
+.con1 .fa-map-marker{
+    padding-left: 48%;padding-right: 48%;margin-top: 10%;color:rgb(240, 30, 240) ;font-size:50px;
+}
+.con1 .fa-phone{
+    padding-left: 48%;padding-right: 48%;margin-top: 10%;color:rgb(240, 30, 240) ;font-size:50px;
+}
+.con1 .fa-envelope-open-o{
+    padding-left: 48%;padding-right: 48%;margin-top: 10%;color:rgb(240, 30, 240) ;font-size:50px;
+}
+.con1 .fa-clock-o{
+    padding-left: 48%;padding-right: 48%;margin-top: 10%;color:rgb(240, 30, 240) ;font-size:50px;
+}
+.con2{
+    background-color: #f7e6f1;height: 720px;width:100%;
+  }
+  .con3{
+    background-color: #f7e6f1;
+  }
 /* @media(max-width:1650px) {
     .p5{
         display: none;
