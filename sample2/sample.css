@@ -112,7 +112,6 @@
     width: 100%;
     margin-top: 100px;
     height: 900px;
-    top: 10px;
 }
 
 .card {
@@ -202,8 +201,8 @@ li .fa-twitter {
 
 .mm10 {
     position: absolute;
-    top: 923px;
-    left: 48%;
+    top:947px;
+    left: 45%;
 }
 
 .mass1 {
@@ -211,7 +210,34 @@ li .fa-twitter {
     font-weight: 500;
     font-size: 90px;
 }
-
+.gaa2{
+    width: 100px;
+}
+.gaa6{
+    width: 100px;
+}
+.gaa4{
+    width: 100px;
+}
+.ga3{
+    width:10%;
+}
+.gaa3{
+    width:175px;
+}
+.gaa1{
+    width: 160px;
+}
+.ga1
+{
+    background-color: rgb(221, 161, 211); border: none;
+}
+.ga1:hover{
+background-color: rgb(177, 27, 152);color: white;
+}
+.ga2{
+    margin-left: 15%;
+}
 .mass2 {
     color: white;
     font-weight: 500;
@@ -271,14 +297,15 @@ li .fa-twitter {
 }
 
 .wee2 {
-    margin-left: 245px;
+    margin-left: 90%;
     margin-top: 20%;
 }
 
 .wee3 {
     position: absolute;
     bottom: 0%;
-    left: 25%;
+    left: 20%;
+    top:10%
 }
 
 .wee4 {
@@ -307,6 +334,7 @@ li .fa-twitter {
 .wee8 {
     background-color: #c9a4f3;
     border-radius: 50%;
+    width: 200px;height: 200px;
 }
 
 .wee9 {
@@ -394,7 +422,9 @@ li .fa-twitter {
 .wee22 {
     height: 800px;
 }
-
+.ed1{
+    margin-left:30%;
+}
 .wee23 {
     background-color: #d7c7eb;
 }
@@ -432,7 +462,7 @@ li .fa-twitter {
 }
 
 .wee30 .fa-map-marker {
-    margin-left: 80%;
+    padding-left: 80%;
     font-size: 40px;
     color: white;
 }
@@ -442,13 +472,13 @@ li .fa-twitter {
 }
 
 .wee30 .fa-envelope-o {
-    margin-left: 75%;
+    padding-left: 75%;
     font-size: 30px;
     color: white;
 }
 
 .wee30 .fa-phone {
-    margin-left: 80%;
+    padding-left: 80%;
     font-size: 30px;
     color: white;
 }
@@ -586,8 +616,8 @@ li .fa-twitter {
 }
 .blog34 .fa-link {
     color: white;
-    /* margin-top: 50%;
-    margin-left: 50%; */
+    margin-top: 40%;
+    margin-left: 45%;
     font-size: 50px;
 }
 .hovercard:hover .blog34{
@@ -622,7 +652,7 @@ li .fa-twitter {
 .treat40 {
     background-color: #dbc7f1;
     width: 100%;
-    height: 153px;
+    height: 170px;
 }
 .bbb12{
     color:black
@@ -745,3 +775,26 @@ li .fa-twitter {
     }
    
 } */
+@media(max-width:1308px){
+    .ed1{
+        margin-left: 0%;
+    }
+    .wee26{
+        margin-left: 0%;
+    }
+    .wee27{
+        margin-left: 0%;
+    }
+    .wee33{
+        margin-left: 0%;
+    }
+    .wee34{
+        margin-left: 0%;
+    }
+    .wee35{
+        margin-left: 0%;
+    }
+    .wee8{
+        width: 50px;height: 50px;
+    }
+}
