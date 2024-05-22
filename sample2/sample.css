@@ -18,6 +18,7 @@
 
 .p10 {
     color: #706473;
+   
 }
 
 .p3 {
@@ -203,6 +204,7 @@ li .fa-twitter {
     position: absolute;
     top:947px;
     left: 45%;
+    display: flex;
 }
 
 .mass1 {
@@ -286,13 +288,15 @@ background-color: rgb(177, 27, 152);color: white;
     color: #706473;
     font-size: 15px;
     font-weight: 300;
+    padding-left: 5%;
 }
 
 .wee1 {
     border: 1px solid rgb(111, 90, 152);
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     position: relative;
 }
 
@@ -324,7 +328,7 @@ background-color: rgb(177, 27, 152);color: white;
     background-color: rgb(129, 8, 241);
     color: white;
     border: none;
-    margin-top: 50%;
+    margin-top: 5px;
     width: 150px;
     height: 40px;
 }
@@ -334,7 +338,7 @@ background-color: rgb(177, 27, 152);color: white;
 .wee8 {
     background-color: #c9a4f3;
     border-radius: 50%;
-    width: 200px;height: 200px;
+    width: 100px;height: 100px;
 }
 
 .wee9 {
@@ -469,6 +473,7 @@ background-color: rgb(177, 27, 152);color: white;
 
 .wee31 {
     color: white;
+    font-size: 20px;
 }
 
 .wee30 .fa-envelope-o {
@@ -757,6 +762,9 @@ background-color: rgb(177, 27, 152);color: white;
   .con3{
     background-color: #f7e6f1;
   }
+  .pf{
+    display:inline;
+  }
 /* @media(max-width:1650px) {
     .p5{
         display: none;
@@ -797,4 +805,76 @@ background-color: rgb(177, 27, 152);color: white;
     .wee8{
         width: 50px;height: 50px;
     }
+    .wee3 {
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+        top:30%
+    }
+    .wee8 {
+        width: 50px;height: 50px;
+    }
+    .wee1{
+        height: 150px;width: 150px;
+    }
+    .mm10{
+        display: none;
+    }
+    .part6{
+
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .p5{
+        display: none;
+    }
+    .p3{
+        border-right: none;
+    }
+    .wee30 .fa-map-marker {
+        padding-left: 30%;
+        font-size: 20px;
+
+    }
+    .wee30 .fa-envelope-o {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    
+    .wee30 .fa-phone {
+        padding-left: 35px;
+        font-size: 20px;
+    }
+    .wee31{
+        font-size: 10px;
+    }
+  
 }
+@media(max-width:1154px){
+    .part6{
+        padding-left: 30%;
+        font-size: 10px;
+        font-weight: 100;
+    }
+}    
+@media(max-width:900px){
+    .pf{
+       display: none;
+    }
+    .wee5{
+        margin-left: 70%;
+    }
+    .p1 {
+        height: 140px;
+        width: 100px;
+
+    }
+}  
+/* @media(max-width:1298px){
+    .wee3 {
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+        top:50%
+    }
+}     */
