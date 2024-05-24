@@ -279,7 +279,7 @@ background-color: rgb(177, 27, 152);color: white;
 
 .part5 {
     border-right: 1px solid #9e9e9e;
-    height: 90px;
+    height: 70px;
 }
 
 .part6 {
@@ -288,7 +288,15 @@ background-color: rgb(177, 27, 152);color: white;
     color: #706473;
     font-size: 15px;
     font-weight: 300;
-    padding-left: 5%;
+    /* padding-left: 5%; */
+}
+.wee311{
+
+     position: absolute;
+     bottom: 0%;
+    left: 35%;
+     top:70%;
+
 }
 
 .wee1 {
@@ -308,8 +316,8 @@ background-color: rgb(177, 27, 152);color: white;
 .wee3 {
     position: absolute;
     bottom: 0%;
-    left: 20%;
-    top:10%
+    left: 25%;
+    top:70%;
 }
 
 .wee4 {
@@ -336,6 +344,10 @@ background-color: rgb(177, 27, 152);color: white;
     margin-left: 10%;
 }
 .wee8 {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    top:20%;
     background-color: #c9a4f3;
     border-radius: 50%;
     width: 100px;height: 100px;
@@ -427,7 +439,8 @@ background-color: rgb(177, 27, 152);color: white;
     height: 800px;
 }
 .ed1{
-    margin-left:30%;
+    padding-left:100%;
+    margin-left: 30%;
 }
 .wee23 {
     background-color: #d7c7eb;
@@ -800,9 +813,9 @@ background-color: rgb(177, 27, 152);color: white;
    
 } */
 @media(max-width:1308px){
-    .ed1{
+    /* .ed1{
         margin-left: 0%;
-    }
+    } */
     .wee26{
         margin-left: 0%;
     }
@@ -821,12 +834,12 @@ background-color: rgb(177, 27, 152);color: white;
     .wee8{
         width: 50px;height: 50px;
     }
-    .wee3 {
+    /* .wee3 {
         position: absolute;
         bottom: 0%;
         left: 20%;
         top:30%
-    }
+    } */
     .wee8 {
         width: 50px;height: 50px;
     }
@@ -836,11 +849,11 @@ background-color: rgb(177, 27, 152);color: white;
     .mm10{
         display: none;
     }
-    .part6{
+    /* .part6{
 
         font-size: 10px;
         font-weight: 100;
-    }
+    } */
     .p5{
         display: none;
     }
@@ -872,14 +885,35 @@ background-color: rgb(177, 27, 152);color: white;
         width: 100%;
         height:176px;
       }
+      .wee311{
+
+        position: absolute;
+        bottom: 0%;
+       left: 30%;
+        top:60%;
+   
+   }
+   .wee8 {
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    top:25%;
+}
+.wee3 {
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    top:60%;
+}
+ 
   
 }
 @media(max-width:1154px){
-    .part6{
-        padding-left: 30%;
+    /* .part6{
+        padding-left: 20%;
         font-size: 10px;
         font-weight: 100;
-    }
+    } */
     .pf10{
         font-size: 10px;
         
@@ -888,6 +922,12 @@ background-color: rgb(177, 27, 152);color: white;
 
         height: 30px;
     }
+    /* .wee3 {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    top:10%
+} */
 
 }    
 @media(max-width:900px){
