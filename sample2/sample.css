@@ -292,7 +292,7 @@ background-color: rgb(177, 27, 152);color: white;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     color: #706473;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-weight: 300;
     /* padding-left: 5%; */
 }
@@ -344,7 +344,7 @@ background-color: rgb(177, 27, 152);color: white;
     background-color: rgb(129, 8, 241);
     color: white;
     border: none;
-    margin-top: 5px;
+    margin-top: 40%;
     width: 150px;
     height: 40px;
 }
@@ -701,7 +701,7 @@ background-color: rgb(177, 27, 152);color: white;
     width: 93%;
 }
 .app2{
-    width:86% ;
+    width:85% ;
 }
 .pix3{
     width: 100%;height: 70%;
@@ -824,6 +824,17 @@ background-color: rgb(177, 27, 152);color: white;
     }
    
 } */
+
+
+
+@media(max-width:1360px){
+    .ga3{
+        width:15%;
+    }
+}
+
+
+
 @media(max-width:1308px){
     /* .ed1{
         margin-left: 0%;
@@ -849,30 +860,7 @@ background-color: rgb(177, 27, 152);color: white;
     .wee8{
         width: 50px;height: 50px;
     }
-    /* .ga21{
-        margin-left: 10%;
-    } */
 
-    /* .wee3 {
-        position: absolute;
-        bottom: 0%;
-        left: 20%;
-        top:30%
-    } */
-    .wee8 {
-        width: 50px;height: 50px;
-    }
-    .wee1{
-        height: 150px;width: 150px;
-    }
-    .mm10{
-        display: none;
-    }
-    /* .part6{
-
-        font-size: 10px;
-        font-weight: 100;
-    } */
     .p5{
         display: none;
     }
@@ -929,6 +917,7 @@ background-color: rgb(177, 27, 152);color: white;
     right:15%;
 }
 
+
   
 }
 @media(max-width:1154px){
@@ -945,6 +934,7 @@ background-color: rgb(177, 27, 152);color: white;
 
         height: 30px;
     }
+
     /* .wee3 {
     position: absolute;
     bottom: 0%;
@@ -957,6 +947,7 @@ background-color: rgb(177, 27, 152);color: white;
     .pf{
        display: none;
     }
+
     .wee5{
         margin-left: 70%;
     }
@@ -964,6 +955,12 @@ background-color: rgb(177, 27, 152);color: white;
         height: 140px;
         width: 100px;
 
+    }
+    .wee7{
+        margin-top: 5px;
+    }
+    .ga3{
+        width:17%;
     }
  
 }  
