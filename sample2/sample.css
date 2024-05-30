@@ -767,7 +767,7 @@ background-color: rgb(177, 27, 152);color: white;
     /* display: none; */
   }
   .con1{
-    background-color: rgb(247, 168, 247);height: 300px;width:40%;border-bottom:2px solid rgb(240, 30, 240) ;
+    background-color: rgb(247, 168, 247);height: 300px;width:40%;border-bottom:2px solid rgb(240, 30, 240) ;margin-left: 10%;
   }
 .con1 .fa-map-marker{
     padding-left: 48%;padding-right: 48%;margin-top: 10%;color:rgb(240, 30, 240) ;font-size:50px;
@@ -842,6 +842,9 @@ background-color: rgb(177, 27, 152);color: white;
     .wee26{
         margin-left: 0%;
     }
+    /* .con1{
+        margin-left: 0%;
+    } */
     .wee27{
         margin-left: 0%;
     }
