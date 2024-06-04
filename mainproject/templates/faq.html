@@ -1,0 +1,554 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq pearl touche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="{% static 'sample.css' %}" rel="stylesheet">
+    <link href="{% static 'bb.css' %}" rel="stylesheet">
+    <link href="{% static 'gh.css' %}" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-light  fixed-top" id="navbar" ;style="position: relative;">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo" ; href="#"><img class="p1" src="{% static 'logo80.png' %}"></a>
+            <div class="po1 wee5">
+                <ul style="display: flex;list-style-type: none ;">
+                    <li><a class="nav-link active p5 " aria-current="page" href="#"><i class="fa fa-phone">
+                                <span class="p10 pe-4">+97142284625</span></i></a> </li>
+                    <li>
+                        <div class="p3"></div>
+                    </li>
+                    <li><a class="nav-link pf" href="#"><img src="{% static 'flag.png' %}"><span
+                                class="p5 ps-3 pe-4">ENGLISH</span></a></li>
+                    <li><a href="appoint.html"><button type="button" class="pf p4 me-5">Make an appointment</button></a>
+                    </li>
+                    <li>
+
+                        <button class="hamburger-menu mt-1" id="menu-btn" type="checkbox" class="navbar-toggler"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end p12" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="offcanvas-header ">
+
+                <button type="button" class="p13" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa fa-close"></i></button>
+
+
+
+
+
+
+
+            </div>
+            <div class="offcanvas-body ">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 pt-5">
+                    <li class="nav-item">
+                        <a class="nav-link  p11 mb-3 " aria-current="page" href="{% url 'index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'about' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'treatment' %}">Treatment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'faq' %}">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'blog' %}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'gallery' %}">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page" href="{% url 'appoint' %}">Make an
+                            Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3 p11 " aria-current="page"
+                            href="{% url 'testimonials' %}">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mb-3  p11 " aria-current="page" href="{% url 'contact' %}">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row" style="margin-top:180px">
+        <div class="col-lg-12">
+            <div class="card bg-dark text-white">
+                <img src="{% static 'faq-banner-image.jpg' %}" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title ssr4">FAQ</h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><a href="whatsapp://send?phone=+1234567890">"<img src="{% static 'whatsapp (1).png' %}" class="hpmenu"></a></div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="treat5 mt-5">Unlock the Magic : Explore <br> Electrolysis FAQs with Pearl Touche !</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 mb-2 mt-2">
+            <div id="flip" class="flip ps-5">What is electrolysis ?</div>
+            <div id="panel" class="panel1">Electrolysis is the science of permanent hair removal. The electrolysis
+                modality was the first method used to remove hair permanently back in 1875. Using
+                state-of-art-technology, a minute amount of electricity is gently applied to the base of the hair
+                follicle. This process destroys the hair growth tissue. Therefore, the regenerative ability of the hair
+                follicle is permanently eliminated.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 mb-2">
+            <div id="flip1" class="flip ps-5">Why should i choose electrolysis over other temporary methods like waxing ,
+                threading & laser ?</div>
+            <div id="panel1" class="panel">Waxing, threading, tweezing and laser are alike. However, ingrown hairs and
+                discolouration may result. Additionally, they may cause an increase in hair growth activity.
+                Depilatories and shaving can cause an irritation to the skin while the hair grows quickly. Although
+                laser assisted hair removal is considered a temporary method. It has not been evaluated for long-term
+                safety of the skin and health. These methods require a life time of maintenance</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 mb-2">
+            <div id="flip2" class="flip ps-5">How many treatments are required ?</div>
+            <div id="panel2" class="panel">The number of treatment required varies with each client. Treatment sessions
+                can range from 15mnts to more than an hour depending on the area being treated. Factors such as hair
+                growth cycles, the quality and the structure of the hair presented, previous use of temporary hair
+                removal methods, heredity, hormone function, certain medication and stress influence the treatment
+                program for each individual. It is important to follow the recommended treatment plan to achieve optimum
+                results</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip3" class="flip ps-5">Does electrolysis have any side effects on skin ?</div>
+            <div id="panel3" class="panel">Immediately following treatment, there may be slight redness, which varies
+                with each individual. The latest technology has made electrolysis more comfortable and effective than
+                ever before. Your electrologist will provide you with post treatment instructions and the personal
+                attention you need.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip4" class="flip ps-5">Can women begin or have electrolysis during pregnancy ?</div>
+            <div id="panel4" class="panel">Unwanted hair can be caused by hormonal changes brought on by pregnancy.
+                Electrolysis can be performed on any normal skin. This includes pregnant women</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip5" class="flip ps-5">Can your legs look this smooth forever</div>
+            <div id="panel5" class="panel">At our electrolysis clinic in Dubai, UAE, we offer an effective and
+                long-lasting solution for hair removal. Say goodbye to the hassle of shaving or waxing and experience
+                the freedom of silky smooth legs that last. Our electrolysis treatment targets hair follicles at their
+                source, using advanced technology to permanently reduce hair growth.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip6" class="flip ps-5">Do you want to get rid of armpit hairs for good ?</div>
+            <div id="panel6" class="panel">Our advanced electrolysis treatment offers a permanent solution for unwanted
+                armpit hair. By targeting the hair follicles directly, our skilled technicians can effectively and
+                safely remove the hair, leaving your underarms smooth and hair-free. Experience the confidence and
+                freedom of wearing sleeveless tops without worrying about stubble or regrowth.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip7" class="flip ps-5">Say goodbye to unwanted neck hair once and for all!</div>
+            <div id="panel7" class="panel">At our electrolysis clinic in Dubai, UAE, we offer a reliable solution for
+                removing those pesky neck hairs. Tired of constantly plucking or shaving only to have the hair grow back
+                quickly? Our specialized electrolysis treatment provides a permanent solution for a smooth and hair-free
+                neck. Our skilled technicians use precise techniques to target the hair follicles directly, ensuring
+                effective and long-lasting results.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip8" class="flip ps-5">Are you tired of the constant struggle to remove hair from your private parts
+                every week?</div>
+            <div id="panel8" class="panel">We have the perfect solution for you! At our electrolysis clinic in Dubai,
+                UAE, we understand the challenges you face and offer a long-lasting solution to eliminate unwanted hair
+                in your most intimate areas. Our advanced electrolysis treatment is tailored to provide permanent hair
+                reduction, allowing you to bid farewell to the never-ending cycle of shaving or waxing.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip9" class="flip ps-5">What happens during electrolysis</div>
+            <div id="panel9" class="panel">Electrologists use a thin needle, which is often even finer than the hair.
+                They insert the needle into the opening of the hair follicle. A small electrical current destroys the
+                hair growth cells. The skin where the needle enters may feel temporarily hot or like a pinch</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip10" class="flip ps-5">Why do i need so many electrolysis treatments?</div>
+            <div id="panel10" class="panel">Hairs have different growth cycles. Your hair follicle produces hair and
+                discards it through shedding. This hair production cycle is a process of growth, rest and replacement.
+                Individual hairs are in different phases of this cycle. More than one treatment catches the hairs at the
+                right point in the cycle to destroy them.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip11" class="flip ps-5">How long does electrolysis treatment last?</div>
+            <div id="panel11" class="panel">An electrolysis treatment lasts anywhere between 15 minutes and one hour
+                depending upon the hair growth.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip12" class="flip ps-5">What do i need to know after the procedure</div>
+            <div id="panel12" class="panel">For the first 24 hours after your treatment, try to avoid activities that
+                may irritate the hair follicles, including: anything that causes sweating, tanning, staying out in the
+                sun, applying makeup.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip13" class="flip ps-5">What is the advantage of electrolysis</div>
+            <div id="panel13" class="panel">Over 99% of clients experience permanent hair removal after finishing
+                electrolysis treatments. Also, electrolysis works with the widest range of skin and hair types. It’s
+                good for sensitive areas of the body, like the face or bikini line. The main disadvantage to
+                electrolysis is the length of time needed to achieve permanent hair removal.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip14" class="flip ps-5">Are there any risks or complications of electrolysis ?</div>
+            <div id="panel14" class="panel">Electrolysis is very safe. Very slight risks of infection (from an unsterile
+                needle) or scarring exist if the electrolysis is not done correctly. These risks are very low if you
+                choose a certified, professional electrolysis practice. You may have a slight reddening of the skin
+                during or right after treatment. It’s very short-lived. People with lighter skin may have temporary dark
+                spots on their skin. The spots fade over time, so don’t use bleaching cream on them.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip15" class="flip ps-5">Will electrolysis leave a scar ?</div>
+            <div id="panel15" class="panel">Scarring is rare after electrolysis treatments.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip16" class="flip ps-5">Is electrolysis painful ?</div>
+            <div id="panel16" class="panel">Electrolysis doesn't typically cause too much discomfort. You may feel a
+                slight tingling. Talk to your electrologist about a topical anesthetic (numbing cream) if necessary.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip17" class="flip ps-5">What is the recovery time after electrolysis ?</div>
+            <div id="panel17" class="panel">You can resume your normal activities immediately after treatment.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip18" class="flip ps-5">Is electrolysis permanant ?</div>
+            <div id="panel18" class="panel">Yes, electrolysis safely and permanently removes hair from all skin tones.
+                It is the only FDA- approved permanent hair removal treatment. Because electrolysis permanently destroys
+                the growth cells in the hair follicles, the hair will not grow back.
+
+                Most other methods focus on immediate, but temporary, hair removal – visible hair, or hair that’s inside
+                the follicle but hasn’t yet emerged. None of them deliver permanent elimination of unwanted hair.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip19" class="flip ps-5">How does electrolysis compare to temporary methods of hair removal ?</div>
+            <div id="panel19" class="panel">Many people use chemical depilatories, such as liquids or creams, to remove
+                leg hair. The chemicals in these products can irritate your skin. Chemical hair removal can be messy and
+                take a long time. Waxing, another method of hair removal, can be painful and costly. Home waxing kits
+                may be messy and hard to use.</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12  mb-2">
+            <div id="flip20" class="flip ps-5">Can I use an at-home electrolysis device ?</div>
+            <div id="panel20" class="panel">Electrical electrolysis devices exist on the market, available for home use.
+                But it’s best to go to a trained electrologist for electrolysis. They use high-quality, sterile
+                equipment and can individualize the treatment to best suit your needs. For people who want to remove
+                body hair, electrolysis can offer a permanent solution. A trained electrologist performs the procedure,
+                which is generally not painful. After several treatment sessions, you’ll likely be hair free.</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 wee30 mt-5">
+            <div class="row">
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-map-marker mt-5"></i>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    <p class="wee31 mt-5">Al Ghazal Mall,Mezannine Floor,<br>Unit #19,Al-Bada'a,Dubai,UAE.
+                    </p>
+                </div>
+
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-envelope-o mt-5"></i>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    <p class="wee31 mt-5">pearltouche2@gmail.com
+                    </p>
+                </div>
+
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-phone mt-5"></i>
+                </div>
+                <div class="col-lg-3 col-sm-3">
+                    <p class="wee31 mt-5">+97142773855<br>+971554218231
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 wee32">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12"> <img src="{% static 'logo90.png' %}" class="wee33"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 col-sm-1 wee34 ">
+                    <i class="fa fa-facebook-f"></i>
+                </div>
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-instagram"></i>
+                </div>
+                <div class="col-lg-1 col-sm-1">
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 mt-5">
+                    <h1 class="wee24 mt-5">Make an Appointment</h1>
+                    <p class="wee24 mt-3">Transform your confidence,book your appointment now!Or contact us via phone at
+                        +971554218231</p>
+                    <a href="appoint.html"><button type="button" class="p4 wee35 mt-5">Make an appointment</button></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 wee36 mt-5">
+                    <div class="row mt-2">
+                        <div class="col-lg-10 col-sm-10">
+                            <p class="pf10">&copy; 2024 Pearl Touche. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-lg-2 col-sm-2">
+                            <p class="pf10">Crafted by Ooly Web Studio</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.padding = "45px 10px";
+                document.getElementById("logo").style.fontSize = "25px";
+                document.querySelector(".p1").style.width = "300px";
+                document.querySelector(".p1").style.height = "150px";
+                document.querySelector(".po1").style.padding = "1%";
+            } else {
+                document.getElementById("navbar").style.padding = "80px 10px";
+                document.getElementById("logo").style.fontSize = "35px";
+                document.querySelector(".p1").style.width = "400px";
+                document.querySelector(".p1").style.height = "240px";
+                document.querySelector(".po1").style.padding = "3%";
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip1").click(function () {
+                $("#panel1").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip2").click(function () {
+                $("#panel2").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip3").click(function () {
+                $("#panel3").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip4").click(function () {
+                $("#panel4").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip5").click(function () {
+                $("#panel5").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip6").click(function () {
+                $("#panel6").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip7").click(function () {
+                $("#panel7").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip8").click(function () {
+                $("#panel8").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip9").click(function () {
+                $("#panel9").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip10").click(function () {
+                $("#panel10").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip11").click(function () {
+                $("#panel11").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip12").click(function () {
+                $("#panel12").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip13").click(function () {
+                $("#panel13").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip14").click(function () {
+                $("#panel14").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip15").click(function () {
+                $("#panel15").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip16").click(function () {
+                $("#panel16").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip17").click(function () {
+                $("#panel17").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip18").click(function () {
+                $("#panel18").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip19").click(function () {
+                $("#panel19").slideToggle("slow");
+            })
+        });
+        $(document).ready(function () {
+            $("#flip20").click(function () {
+                $("#panel20").slideToggle("slow");
+            })
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
